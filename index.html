@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sectioncard">
+        <div class="head">
+            <input type="text" placeholder="enter city name" name="search" class="search">
+            <button class="search-btn"><i class='bx bx-search'></i></button>
+        </div>
+        <div class="error">
+            Invalid input ..!
+        </div>
+        <div class="card-body">
+            <div class="weather">
+                <img src="images/clouds.png" class="weather-img">
+                <h1 class="temp">22° C</h1>
+                <h2 class="city">New York</h2>
+            </div>
+            <div class="bottom">
+                <div class="details">
+                    <img src="images/humidity.png">
+                    <diV>
+                        
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </diV>
+                </div>
+                    <diV class="details">
+                        <img src="images/wind.png">
+                        <div>
+                        <p class="wind">22 km/h</p>
+                        <p>wind speed</p>
+                        </div>
+                    </diV>
+            
+            </div>
+        </div>
+         
+
+
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
